@@ -4,7 +4,7 @@ html, body{
 }
 
 header{
-	background-color: green;
+	background-color: pink;
 	padding: 40px;
 	text-align: center;
 }
@@ -12,11 +12,15 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 5px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 header img{
 	border-radius:150px;
-	border:10px solid yellow;
+	border:10px solid pink;
+	box-shadow: 0 15px 20px black;
 
 }
 
@@ -24,6 +28,24 @@ header img{
 	max-width:900px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+h2{
+	font-size: 40px;
+	color: blackpink;
+	margin-bottom: 0;
+}
+
+p{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+ol, ul{
+	list-style: none;
+	padding: 0;
+	margin: 20px 40px;
+	max-width: 600px;
 }
 
 img.big-image{
@@ -43,15 +65,14 @@ ul{
 }
 
 a{
-	color: green;
+	color: hotpink;
 	text-decoration: none;
 }
-
 
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #D2F88F;
+	background-color: lightpink;
 }
 
 footer ul{
@@ -60,5 +81,4 @@ footer ul{
 
 footer ul li{
 	display: inline;
-
 }
